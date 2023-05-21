@@ -1,0 +1,632 @@
+show dbs
+web23
+ db.user.insertOne(name:"Naquee", age:23, city:"Bhopal")
+
+
+
+
+
+> db.users.find().pretty()
+{
+        "_id" : ObjectId("63479e1a4058baa065ebfc1c"),
+        "name" : "Naki",
+        "age" : 23,
+        "city" : "Bhppal"
+}
+{
+        "_id" : ObjectId("63484849706fcac50d34d2a9"),
+        "name" : "Naquee",
+        "age" : 23,
+        "city" : "Bhopal"
+}
+{
+        "_id" : ObjectId("634849eb706fcac50d34d2aa"),
+        "name" : "pallivi",
+        "course" : "NEM111"
+}
+{
+        "_id" : ObjectId("634849eb706fcac50d34d2ab"),
+        "name" : "Abirahimi",
+        "city" : "Bengolore"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2ac"),
+        "id" : 1,
+        "name" : "Leanne Graham",
+        "username" : "Bret",
+        "email" : "Sincere@april.biz",
+        "address" : {
+                "street" : "Kulas Light",
+                "suite" : "Apt. 556",
+                "city" : "Gwenborough",
+                "zipcode" : "92998-3874",
+                "geo" : {
+                        "lat" : "-37.3159",
+                        "lng" : "81.1496"
+                }
+        },
+        "phone" : "1-770-736-8031 x56442",
+        "website" : "hildegard.org",
+        "company" : {
+                "name" : "Romaguera-Crona",
+                "catchPhrase" : "Multi-layered client-server neural-net",
+                "bs" : "harness real-time e-markets"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2ad"),
+        "id" : 2,
+        "name" : "Ervin Howell",
+        "username" : "Antonette",
+        "email" : "Shanna@melissa.tv",
+        "address" : {
+                "street" : "Victor Plains",
+                "suite" : "Suite 879",
+                "city" : "Wisokyburgh",
+                "zipcode" : "90566-7771",
+                "geo" : {
+                        "lat" : "-43.9509",
+                        "lng" : "-34.4618"
+                }
+        },
+        "phone" : "010-692-6593 x09125",
+        "website" : "anastasia.net",
+        "company" : {
+                "name" : "Deckow-Crist",
+                "catchPhrase" : "Proactive didactic contingency",
+                "bs" : "synergize scalable supply-chains"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2ae"),
+        "id" : 3,
+        "name" : "Clementine Bauch",
+        "username" : "Samantha",
+        "email" : "Nathan@yesenia.net",
+        "address" : {
+                "street" : "Douglas Extension",
+                "suite" : "Suite 847",
+                "city" : "McKenziehaven",
+                "zipcode" : "59590-4157",
+                "geo" : {
+                        "lat" : "-68.6102",
+                        "lng" : "-47.0653"
+                }
+        },
+        "phone" : "1-463-123-4447",
+        "website" : "ramiro.info",
+        "company" : {
+                "name" : "Romaguera-Jacobson",
+                "catchPhrase" : "Face to face bifurcated interface",
+                "bs" : "e-enable strategic applications"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2af"),
+        "id" : 4,
+        "name" : "Patricia Lebsack",
+        "username" : "Karianne",
+        "email" : "Julianne.OConner@kory.org",
+        "address" : {
+                "street" : "Hoeger Mall",
+                "suite" : "Apt. 692",
+                "city" : "South Elvis",
+                "zipcode" : "53919-4257",
+                "geo" : {
+                        "lat" : "29.4572",
+                        "lng" : "-164.2990"
+                }
+        },
+        "phone" : "493-170-9623 x156",
+        "website" : "kale.biz",
+        "company" : {
+                "name" : "Robel-Corkery",
+                "catchPhrase" : "Multi-tiered zero tolerance productivity",
+                "bs" : "transition cutting-edge web services"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b0"),
+        "id" : 5,
+        "name" : "Chelsey Dietrich",
+        "username" : "Kamren",
+        "email" : "Lucio_Hettinger@annie.ca",
+        "address" : {
+                "street" : "Skiles Walks",
+                "suite" : "Suite 351",
+                "city" : "Roscoeview",
+                "zipcode" : "33263",
+                "geo" : {
+                        "lat" : "-31.8129",
+                        "lng" : "62.5342"
+                }
+        },
+        "phone" : "(254)954-1289",
+        "website" : "demarco.info",
+        "company" : {
+                "name" : "Keebler LLC",
+                "catchPhrase" : "User-centric fault-tolerant solution",
+                "bs" : "revolutionize end-to-end systems"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b1"),
+        "id" : 6,
+        "name" : "Mrs. Dennis Schulist",
+        "username" : "Leopoldo_Corkery",
+        "email" : "Karley_Dach@jasper.info",
+        "address" : {
+                "street" : "Norberto Crossing",
+                "suite" : "Apt. 950",
+                "city" : "South Christy",
+                "zipcode" : "23505-1337",
+                "geo" : {
+                        "lat" : "-71.4197",
+                        "lng" : "71.7478"
+                }
+        },
+        "phone" : "1-477-935-8478 x6430",
+        "website" : "ola.org",
+        "company" : {
+                "name" : "Considine-Lockman",
+                "catchPhrase" : "Synchronised bottom-line interface",
+                "bs" : "e-enable innovative applications"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b2"),
+        "id" : 7,
+        "name" : "Kurtis Weissnat",
+        "username" : "Elwyn.Skiles",
+        "email" : "Telly.Hoeger@billy.biz",
+        "address" : {
+                "street" : "Rex Trail",
+                "suite" : "Suite 280",
+                "city" : "Howemouth",
+                "zipcode" : "58804-1099",
+                "geo" : {
+                        "lat" : "24.8918",
+                        "lng" : "21.8984"
+                }
+        },
+        "phone" : "210.067.6132",
+        "website" : "elvis.io",
+        "company" : {
+                "name" : "Johns Group",
+                "catchPhrase" : "Configurable multimedia task-force",
+                "bs" : "generate enterprise e-tailers"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b3"),
+        "id" : 8,
+        "name" : "Nicholas Runolfsdottir V",
+        "username" : "Maxime_Nienow",
+        "email" : "Sherwood@rosamond.me",
+        "address" : {
+                "street" : "Ellsworth Summit",
+                "suite" : "Suite 729",
+                "city" : "Aliyaview",
+                "zipcode" : "45169",
+                "geo" : {
+                        "lat" : "-14.3990",
+                        "lng" : "-120.7677"
+                }
+        },
+        "phone" : "586.493.6943 x140",
+        "website" : "jacynthe.com",
+        "company" : {
+                "name" : "Abernathy Group",
+                "catchPhrase" : "Implemented secondary concept",
+                "bs" : "e-enable extensible e-tailers"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b4"),
+        "id" : 9,
+        "name" : "Glenna Reichert",
+        "username" : "Delphine",
+        "email" : "Chaim_McDermott@dana.io",
+        "address" : {
+                "street" : "Dayna Park",
+                "suite" : "Suite 449",
+                "city" : "Bartholomebury",
+                "zipcode" : "76495-3109",
+                "geo" : {
+                        "lat" : "24.6463",
+                        "lng" : "-168.8889"
+                }
+        },
+        "phone" : "(775)976-6794 x41206",
+        "website" : "conrad.com",
+        "company" : {
+                "name" : "Yost and Sons",
+                "catchPhrase" : "Switchable contextually-based project",
+                "bs" : "aggregate real-time technologies"
+        }
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b5"),
+        "id" : 10,
+        "name" : "Clementina DuBuque",
+        "username" : "Moriah.Stanton",
+        "email" : "Rey.Padberg@karina.biz",
+        "address" : {
+                "street" : "Kattie Turnpike",
+                "suite" : "Suite 198",
+                "city" : "Lebsackbury",
+                "zipcode" : "31428-2261",
+                "geo" : {
+                        "lat" : "-38.2386",
+                        "lng" : "57.2232"
+                }
+        },
+        "phone" : "024-648-3804",
+        "website" : "ambrose.net",
+        "company" : {
+                "name" : "Hoeger LLC",
+                "catchPhrase" : "Centralized empowering task-force",
+                "bs" : "target end-to-end models"
+        }
+}
+{ "_id" : ObjectId("63484ef9706fcac50d34d2b7"), "name" : "Bob", "age" : 26 }
+{
+        "_id" : ObjectId("634854148ccc17210eb5589a"),
+        "name" : "Arun",
+        "age" : 23,
+        "city" : "pune",
+        "country" : "India"
+}
+{ "_id" : ObjectId("634857618ccc17210eb5589c"), "name" : "Bob", "age" : 26 }
+{ "_id" : ObjectId("63485caf8ccc17210eb5589d"), "name" : "Bob", "age" : 32 }
+{
+        "_id" : ObjectId("6348617e8ccc17210eb5589e"),
+        "name" : "Ajit",
+        "country" : "India"
+}
+{
+        "_id" : ObjectId("634862e28ccc17210eb5589f"),
+        "name" : "Alia",
+        "country" : "India"
+}
+Type "it" for more
+> db.users.updateMany({country : "India"}, {$remane : {name : "naam"}})
+WriteError({
+        "index" : 0,
+        "code" : 9,
+        "errmsg" : "Unknown modifier: $remane. Expected a valid update modifier or pipeline-style update specified as an array",
+        "op" : {
+                "q" : {
+                        "country" : "India"
+                },
+                "u" : {
+                        "$remane" : {
+                                "name" : "naam"
+                        }
+                },
+                "multi" : true,
+                "upsert" : false
+        }
+}) :
+WriteError({
+        "index" : 0,
+        "code" : 9,
+        "errmsg" : "Unknown modifier: $remane. Expected a valid update modifier or pipeline-style update specified as an array",
+        "op" : {
+                "q" : {
+                        "country" : "India"
+                },
+                "u" : {
+                        "$remane" : {
+                                "name" : "naam"
+                        }
+                },
+                "multi" : true,
+                "upsert" : false
+        }
+})
+WriteError@src/mongo/shell/bulk_api.js:465:48
+mergeBatchResults@src/mongo/shell/bulk_api.js:871:49
+executeBatch@src/mongo/shell/bulk_api.js:940:13
+Bulk/this.execute@src/mongo/shell/bulk_api.js:1182:21
+DBCollection.prototype.updateMany@src/mongo/shell/crud_api.js:690:17
+@(shell):1:1
+> db.users.updateMany({}, {$rename : {name : "first_name"}})
+{ "acknowledged" : true, "matchedCount" : 21, "modifiedCount" : 21 }
+> db.users.find().pretty()
+{
+        "_id" : ObjectId("63479e1a4058baa065ebfc1c"),
+        "age" : 23,
+        "city" : "Bhppal",
+        "first_name" : "Naki"
+}
+{
+        "_id" : ObjectId("63484849706fcac50d34d2a9"),
+        "age" : 23,
+        "city" : "Bhopal",
+        "first_name" : "Naquee"
+}
+{
+        "_id" : ObjectId("634849eb706fcac50d34d2aa"),
+        "course" : "NEM111",
+        "first_name" : "pallivi"
+}
+{
+        "_id" : ObjectId("634849eb706fcac50d34d2ab"),
+        "city" : "Bengolore",
+        "first_name" : "Abirahimi"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2ac"),
+        "id" : 1,
+        "username" : "Bret",
+        "email" : "Sincere@april.biz",
+        "address" : {
+                "street" : "Kulas Light",
+                "suite" : "Apt. 556",
+                "city" : "Gwenborough",
+                "zipcode" : "92998-3874",
+                "geo" : {
+                        "lat" : "-37.3159",
+                        "lng" : "81.1496"
+                }
+        },
+        "phone" : "1-770-736-8031 x56442",
+        "website" : "hildegard.org",
+        "company" : {
+                "name" : "Romaguera-Crona",
+                "catchPhrase" : "Multi-layered client-server neural-net",
+                "bs" : "harness real-time e-markets"
+        },
+        "first_name" : "Leanne Graham"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2ad"),
+        "id" : 2,
+        "username" : "Antonette",
+        "email" : "Shanna@melissa.tv",
+        "address" : {
+                "street" : "Victor Plains",
+                "suite" : "Suite 879",
+                "city" : "Wisokyburgh",
+                "zipcode" : "90566-7771",
+                "geo" : {
+                        "lat" : "-43.9509",
+                        "lng" : "-34.4618"
+                }
+        },
+        "phone" : "010-692-6593 x09125",
+        "website" : "anastasia.net",
+        "company" : {
+                "name" : "Deckow-Crist",
+                "catchPhrase" : "Proactive didactic contingency",
+                "bs" : "synergize scalable supply-chains"
+        },
+        "first_name" : "Ervin Howell"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2ae"),
+        "id" : 3,
+        "username" : "Samantha",
+        "email" : "Nathan@yesenia.net",
+        "address" : {
+                "street" : "Douglas Extension",
+                "suite" : "Suite 847",
+                "city" : "McKenziehaven",
+                "zipcode" : "59590-4157",
+                "geo" : {
+                        "lat" : "-68.6102",
+                        "lng" : "-47.0653"
+                }
+        },
+        "phone" : "1-463-123-4447",
+        "website" : "ramiro.info",
+        "company" : {
+                "name" : "Romaguera-Jacobson",
+                "catchPhrase" : "Face to face bifurcated interface",
+                "bs" : "e-enable strategic applications"
+        },
+        "first_name" : "Clementine Bauch"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2af"),
+        "id" : 4,
+        "username" : "Karianne",
+        "email" : "Julianne.OConner@kory.org",
+        "address" : {
+                "street" : "Hoeger Mall",
+                "suite" : "Apt. 692",
+                "city" : "South Elvis",
+                "zipcode" : "53919-4257",
+                "geo" : {
+                        "lat" : "29.4572",
+                        "lng" : "-164.2990"
+                }
+        },
+        "phone" : "493-170-9623 x156",
+        "website" : "kale.biz",
+        "company" : {
+                "name" : "Robel-Corkery",
+                "catchPhrase" : "Multi-tiered zero tolerance productivity",
+                "bs" : "transition cutting-edge web services"
+        },
+        "first_name" : "Patricia Lebsack"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b0"),
+        "id" : 5,
+        "username" : "Kamren",
+        "email" : "Lucio_Hettinger@annie.ca",
+        "address" : {
+                "street" : "Skiles Walks",
+                "suite" : "Suite 351",
+                "city" : "Roscoeview",
+                "zipcode" : "33263",
+                "geo" : {
+                        "lat" : "-31.8129",
+                        "lng" : "62.5342"
+                }
+        },
+        "phone" : "(254)954-1289",
+        "website" : "demarco.info",
+        "company" : {
+                "name" : "Keebler LLC",
+                "catchPhrase" : "User-centric fault-tolerant solution",
+                "bs" : "revolutionize end-to-end systems"
+        },
+        "first_name" : "Chelsey Dietrich"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b1"),
+        "id" : 6,
+        "username" : "Leopoldo_Corkery",
+        "email" : "Karley_Dach@jasper.info",
+        "address" : {
+                "street" : "Norberto Crossing",
+                "suite" : "Apt. 950",
+                "city" : "South Christy",
+                "zipcode" : "23505-1337",
+                "geo" : {
+                        "lat" : "-71.4197",
+                        "lng" : "71.7478"
+                }
+        },
+        "phone" : "1-477-935-8478 x6430",
+        "website" : "ola.org",
+        "company" : {
+                "name" : "Considine-Lockman",
+                "catchPhrase" : "Synchronised bottom-line interface",
+                "bs" : "e-enable innovative applications"
+        },
+        "first_name" : "Mrs. Dennis Schulist"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b2"),
+        "id" : 7,
+        "username" : "Elwyn.Skiles",
+        "email" : "Telly.Hoeger@billy.biz",
+        "address" : {
+                "street" : "Rex Trail",
+                "suite" : "Suite 280",
+                "city" : "Howemouth",
+                "zipcode" : "58804-1099",
+                "geo" : {
+                        "lat" : "24.8918",
+                        "lng" : "21.8984"
+                }
+        },
+        "phone" : "210.067.6132",
+        "website" : "elvis.io",
+        "company" : {
+                "name" : "Johns Group",
+                "catchPhrase" : "Configurable multimedia task-force",
+                "bs" : "generate enterprise e-tailers"
+        },
+        "first_name" : "Kurtis Weissnat"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b3"),
+        "id" : 8,
+        "username" : "Maxime_Nienow",
+        "email" : "Sherwood@rosamond.me",
+        "address" : {
+                "street" : "Ellsworth Summit",
+                "suite" : "Suite 729",
+                "city" : "Aliyaview",
+                "zipcode" : "45169",
+                "geo" : {
+                        "lat" : "-14.3990",
+                        "lng" : "-120.7677"
+                }
+        },
+        "phone" : "586.493.6943 x140",
+        "website" : "jacynthe.com",
+        "company" : {
+                "name" : "Abernathy Group",
+                "catchPhrase" : "Implemented secondary concept",
+                "bs" : "e-enable extensible e-tailers"
+        },
+        "first_name" : "Nicholas Runolfsdottir V"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b4"),
+        "id" : 9,
+        "username" : "Delphine",
+        "email" : "Chaim_McDermott@dana.io",
+        "address" : {
+                "street" : "Dayna Park",
+                "suite" : "Suite 449",
+                "city" : "Bartholomebury",
+                "zipcode" : "76495-3109",
+                "geo" : {
+                        "lat" : "24.6463",
+                        "lng" : "-168.8889"
+                }
+        },
+        "phone" : "(775)976-6794 x41206",
+        "website" : "conrad.com",
+        "company" : {
+                "name" : "Yost and Sons",
+                "catchPhrase" : "Switchable contextually-based project",
+                "bs" : "aggregate real-time technologies"
+        },
+        "first_name" : "Glenna Reichert"
+}
+{
+        "_id" : ObjectId("63484b29706fcac50d34d2b5"),
+        "id" : 10,
+        "username" : "Moriah.Stanton",
+        "email" : "Rey.Padberg@karina.biz",
+        "address" : {
+                "street" : "Kattie Turnpike",
+                "suite" : "Suite 198",
+                "city" : "Lebsackbury",
+                "zipcode" : "31428-2261",
+                "geo" : {
+                        "lat" : "-38.2386",
+                        "lng" : "57.2232"
+                }
+        },
+        "phone" : "024-648-3804",
+        "website" : "ambrose.net",
+        "company" : {
+                "name" : "Hoeger LLC",
+                "catchPhrase" : "Centralized empowering task-force",
+                "bs" : "target end-to-end models"
+        },
+        "first_name" : "Clementina DuBuque"
+}
+{
+        "_id" : ObjectId("63484ef9706fcac50d34d2b7"),
+        "age" : 26,
+        "first_name" : "Bob"
+}
+{
+        "_id" : ObjectId("634854148ccc17210eb5589a"),
+        "age" : 23,
+        "city" : "pune",
+        "country" : "India",
+        "first_name" : "Arun"
+}
+{
+        "_id" : ObjectId("634857618ccc17210eb5589c"),
+        "age" : 26,
+        "first_name" : "Bob"
+}
+{
+        "_id" : ObjectId("63485caf8ccc17210eb5589d"),
+        "age" : 32,
+        "first_name" : "Bob"
+}
+{
+        "_id" : ObjectId("6348617e8ccc17210eb5589e"),
+        "country" : "India",
+        "first_name" : "Ajit"
+}
+{
+        "_id" : ObjectId("634862e28ccc17210eb5589f"),
+        "country" : "India",
+        "first_name" : "Alia"
+}
+Type "it" for more
+>

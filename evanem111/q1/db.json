@@ -1,0 +1,9 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "product_name": "shoes",
+            "price": 5000
+        }
+    ]
+}
